@@ -20,6 +20,8 @@ Route::post('/saveTask', [TaskController::class, 'saveTask']);
 
 Route::post('/updateTask', [TaskController::class, 'updateTask']);
 
+Route::post('/deleteTask', [TaskController::class, 'deleteTask']);
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

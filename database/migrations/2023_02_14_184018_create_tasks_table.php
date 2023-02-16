@@ -27,6 +27,7 @@ class CreateTasksTable extends Migration
                     'Завершена'
                 ]
             );
+            $table->text('file_name');
             $table->timestamps();
         });
     }
