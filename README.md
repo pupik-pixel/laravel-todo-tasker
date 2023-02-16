@@ -8,3 +8,4 @@
 ### Прописать параметры подключения к бд
 ### Выполнить миграцию -> php artisan migrate
 ## Создать символическую ссылку модуля storage -> php artisan storage:link
+![screenshot](/screenshot.jpg?raw=true "Screenshot")
